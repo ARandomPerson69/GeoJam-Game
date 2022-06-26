@@ -22,6 +22,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        
         body.MovePosition(body.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (movement.x < 0)
+        {
+            
+        }
     }
 }
