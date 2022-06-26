@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D body;
 
     private Vector2 movement;
+    private bool facingRight = true;
 
     // Update is called once per frame
     void Update()
@@ -28,5 +29,10 @@ public class PlayerMovement : MonoBehaviour
         {
             
         }
+    }
+
+    private void flip()
+    {
+        
     }
 }
