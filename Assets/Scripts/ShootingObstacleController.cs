@@ -27,7 +27,7 @@ public class ShootingObstacleController : MonoBehaviour
         {
             Debug.Log("fire");
             Shoot();
-            Time.time = 0; //reset da timer
+            startTime= 0; //reset da timer (fix this hot mess later)
         }
     }
 
